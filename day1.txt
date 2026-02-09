@@ -1,1 +1,35 @@
 day1 devops
+pwd
+ls
+    1  pwd
+    2  ls
+    3  mkdir my_folder
+    4  echo "Hello" > my_folder/myfile.txt
+    5  mkdir my_folder
+    6  cd my_folder
+    7  ls
+    8  cat my_folder/myfile.txt
+    9  cat myfile.txt
+   10  cd ..
+   11  cat my_folder/myfile.txt
+   12  ls my_folder
+   13  vim file.txt
+   14  ls
+   15  cat file.txt
+   16  cd ~
+   17  git clone https://github.com/SwedaElangovan-2802/devops.git
+   18  cd devops
+   19  git status
+   20  touch day1.txt
+   21  echo "day1 devops" > day1.txt
+   22  cat day1.txt
+   23  git add .
+   24  git commit -m "Add day1.txt"
+   25  git config --global user.email "swedaelangovan28@gmail.com"
+   26  git config --global user.name "SwedaElangovan-2802"
+   27  git commit -m "Add day1.txt"
+   28  git push origin main
+   29  echo "pwd" >> day1.txt
+   30  echo "ls" >> day1.txt
+   31  cat day1.txt
+   32  history >> day1.txt
