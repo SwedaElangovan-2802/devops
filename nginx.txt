@@ -1,0 +1,20 @@
+NGINX USING DOCKER
+
+1. Checked Docker version
+   docker --version
+
+2. Pulled NGINX image from Docker Hub
+   docker pull nginx
+
+3. Ran NGINX container with port mapping
+   docker run -d -p 8080:80 --name nginx-container nginx
+
+4. Verified running container
+   docker ps
+
+5. Accessed NGINX in browser
+   http://192.168.102.128:8080
+
+6. Stopped and removed container
+   docker stop nginx-container
+   docker rm nginx-container
