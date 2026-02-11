@@ -1,0 +1,40 @@
+DAY 2 – DOCKER (IMAGE & CONTAINER)
+
+1. Check Docker version
+docker --version
+
+2. List Docker images
+docker images
+
+3. List running containers
+docker ps
+
+4. List all containers
+docker ps -a
+
+5. Pull hello-world image
+docker pull hello-world
+
+6. Run hello-world container
+docker run hello-world
+
+7. Clone Docker sample project
+git clone https://github.com/jagadeeshkanna97/docker_sample.git
+
+8. Navigate to project
+cd docker_sample
+
+9. Build Docker image
+docker build -t docker-sample .
+
+10. Run Docker container
+docker run -d -p 3000:3000 docker-sample
+
+11. Check running containers
+docker ps
+
+12. Access application in browser
+http://192.168.102.128:3000
+
+Output:
+Hello from Docker!
