@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    stages{
+        stage("Print Hello"){
+            steps{
+                sh 'pwd'
+                git branch:'main',url:'https://github.com/jagafaster/jenkins-nginx.git'
+                echo 'Hello'
+                sh 'ls'
+            }
+            
+        }
+    }
+}
