@@ -8,6 +8,12 @@ pipeline{
                 echo 'Hello'
                 sh 'ls'
             }
+            stage('Docker'){
+                steps{
+                    sh'docker build-t web134.'
+                    sh'docker run -d -p 80:80 web134'
+                }
+            }
             
         }
     }
